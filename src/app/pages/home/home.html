@@ -1,0 +1,14 @@
+<h1>Welcome!</h1>
+<p>This is a trial home webpage for a Students Course Portal. Let's see how it turns out!</p>
+<p>Courses Available: 12   Enrolled:3   GPA:3.8</p>
+
+<h1>{{ portalName }}</h1>
+
+<button [disabled]='!isPortalActive' (click)="onEnrollClick()">Enroll Now</button>
+
+<p>{{ message }}</p>
+
+<input [(ngModel)]= 'searchTerm'>
+<p>Searching for: {{ searchTerm }}</p>
+
+
